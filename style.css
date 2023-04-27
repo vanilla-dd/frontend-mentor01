@@ -67,7 +67,6 @@ body {
     padding: 0 1rem 0 1rem;
     font-weight: 400;
     font-size: small;
-
 }
 
 
@@ -99,9 +98,15 @@ body {
     gap: 1rem;
 }
 
+span {
+    font-weight: 200;
+    font-size: smaller;
+   color: rgb(34, 34, 33);
 
+}
 
 .continue{
+    text-decoration: none;
     background-color: rgba(11, 11, 11, 0.814);
     display: flex;
     height: 2.5rem;
@@ -145,10 +150,35 @@ img{
 }
 
 
+@media (400px > width > 300px) {
+    .circle {
+        width: 8rem;
+        height: 8rem;
+    }
+    .head {
+        font-size: larger;
+    }
+    .god {
+        font-size: x-large;
+    }
+    .is {
+        font-size: medium;
+        width: 34ch;
+        text-align: center;
+    }
+    .container {
+        gap: 1.5rem;
+    }
+    .line {
+        font-size: medium;
+    }
+}
 
 
 
-@media (width > 375px) {
+
+
+@media (width > 400px) {
     body{
         
         display: flex;
